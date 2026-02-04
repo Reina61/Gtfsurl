@@ -44,7 +44,7 @@ app.use((req: Request, _res: Response, next: NextFunction) => {
 
 // @note root endpoint
 app.get('/', (_req: Request, res: Response) => {
-  res.send('Hello, world!');
+  res.send('Welcome to gtfs join in https://reina61.github.io/GtfsWebsite/!');
 });
 
 /**
